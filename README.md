@@ -1,7 +1,7 @@
 ###  :computer: _Cyberspace. A consensual hallucination experienced daily by billions of legitimate operators, in every nation._
 ##### ― William Gibson, a book :book:
 
-For clarification it's pronunced **aar**·jn. Start off strong and sort of just rush the end...
+For clarification it's pronunced **aar**·jn. Start off strong and sort of just clobber together the end...
 
 
 
