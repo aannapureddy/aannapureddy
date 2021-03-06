@@ -1,4 +1,9 @@
-### Hi there 👋
+###  :computer: _Cyberspace. A consensual hallucination experienced daily by billions of legitimate operators, in every nation._
+##### ― William Gibson, a book :book:
+
+For clarification it's pronunced **aar**·jn. Start off strong and sort of just rush the end...
+
+
 
 <!--
 **aannapureddy/aannapureddy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
