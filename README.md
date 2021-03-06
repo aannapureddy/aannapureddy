@@ -3,6 +3,8 @@
 
 For clarification it's pronunced **aar**·jn. Start off strong and sort of just clobber together the end...
 
+This is my personal profile containing my personal work. It has no connection to my day job. This is what I do for fun.
+In that spirit not every repo is moderated.
 
 
 <!--
