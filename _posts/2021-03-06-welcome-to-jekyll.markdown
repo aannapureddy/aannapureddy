@@ -1,29 +1,44 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to My Site!"
 date:   2021-03-06 10:56:08 -0600
-categories: jekyll update
+categories: personal update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Welcome to my personal site! This is where I'll be sharing thoughts, projects, and whatever else I find interesting.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## About This Site
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+This site is built with [Jekyll](https://jekyllrb.com/), a static site generator that makes it easy to create simple, fast websites. It's perfect for blogs, portfolios, and documentation sites.
 
-Jekyll also offers powerful support for code snippets:
+## What You'll Find Here
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+- **Blog posts** about technology, programming, and other interests
+- **Project showcases** of things I'm working on
+- **Thoughts and ideas** that I want to share
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## Technical Details
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+This site uses:
+- Jekyll for static site generation
+- GitHub Pages for hosting
+- The Minima theme for styling
+- Ruby for the backend processing
+
+## Getting Started
+
+If you want to run this site locally:
+
+```bash
+# Install dependencies
+bundle install
+
+# Start the development server
+bundle exec jekyll serve
+```
+
+Then visit `http://localhost:4000` to see the site.
+
+---
+
+*This is what I do for fun. Enjoy exploring!*

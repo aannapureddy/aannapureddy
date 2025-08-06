@@ -4,15 +4,36 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## About Me
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hi, I'm Arjun Annapureddy (pronounced **aar**·jn - start off strong and sort of just clobber together the end).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+This is my personal site where I share my thoughts, projects, and explorations. It's completely separate from my day job - this is what I do for fun.
 
+## What I Do
 
-[jekyll-organization]: https://github.com/jekyll
+I'm interested in technology, programming, and building things. This site serves as a place to:
+
+- Share thoughts and ideas
+- Document projects I'm working on
+- Write about things I'm learning
+- Connect with others who share similar interests
+
+## About This Site
+
+This site is built with:
+- **Jekyll** - Static site generator
+- **GitHub Pages** - Hosting
+- **Minima theme** - Clean, minimal design
+- **Ruby** - Backend processing
+
+## Contact
+
+You can find me on:
+- [GitHub](https://github.com/aannapureddy)
+- [LinkedIn](https://linkedin.com/in/your-profile) (if you want to add this)
+
+---
+
+*"Cyberspace. A consensual hallucination experienced daily by billions of legitimate operators, in every nation."*  
+― William Gibson
