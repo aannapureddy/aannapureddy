@@ -31,7 +31,7 @@ This site is built with:
 
 You can find me on:
 - [GitHub](https://github.com/aannapureddy)
-- [LinkedIn](https://linkedin.com/in/your-profile) (if you want to add this)
+- [LinkedIn](https://www.linkedin.com/in/annapureddy/)
 
 ---
 
