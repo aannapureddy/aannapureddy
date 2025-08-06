@@ -10,7 +10,7 @@ In that spirit not every repo is moderated.
 
 ## 🚀 Live Site
 
-Visit: [https://aannapureddy.github.io](https://aannapureddy.github.io)
+Visit: [https://aannapureddy.github.io/aannapureddy/](https://aannapureddy.github.io/aannapureddy)
 
 ## 📄 License
 
