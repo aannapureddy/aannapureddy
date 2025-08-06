@@ -31,10 +31,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          # If using the 'assets' git submodule from Chirpy, uncomment the following line to automatically checkout submodules
-          # submodules: recursive
-          # End of the recommended settings.
 
       - name: Setup Pages
         id: pages
