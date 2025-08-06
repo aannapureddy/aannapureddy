@@ -5,6 +5,10 @@ on:
   push:
     branches: ["main"]
 
+  # Runs on pull requests
+  pull_request:
+    branches: ["main"]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -21,8 +25,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
-  build:
+  # Build and test job
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -53,11 +57,39 @@ jobs:
           bundle install
           npm ci
 
+      - name: Validate Jekyll configuration
+        run: bundle exec jekyll doctor
+
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: 'production'
+
+      - name: Test site structure
+        run: |
+          # Check that _site directory was created
+          test -d _site
+          
+          # Check that index.html exists
+          test -f _site/index.html
+          
+          # Check that about page exists
+          test -f _site/about/index.html
+          
+          # Check that posts directory exists
+          test -d _site/_posts || test -d _site/posts
+          
+          echo "✅ Site structure validation passed"
+
+      - name: Test HTML validity (basic)
+        run: |
+          # Basic HTML validation - check for common issues
+          if grep -r "&lt;" _site/ || grep -r "&gt;" _site/; then
+            echo "⚠️  Warning: Found potential HTML encoding issues"
+          else
+            echo "✅ Basic HTML validation passed"
+          fi
 
       - name: Setup artifact upload
         uses: actions/upload-pages-artifact@v3
@@ -65,13 +97,14 @@ jobs:
           # Upload entire repository
           path: './_site'
 
-  # Deployment job
+  # Deployment job (only for main branch)
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: build-and-test
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
