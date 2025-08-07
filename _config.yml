@@ -22,7 +22,7 @@ title: "Arjun Annapureddy"
 email: arjun.annapureddy@gmail.com
 description: >- 
   Personal site and blog. This is what I do for fun.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/aannapureddy" # the subpath of your site, e.g. /blog
 url: "https://aannapureddy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: aannapureddy
